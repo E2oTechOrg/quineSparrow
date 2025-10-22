@@ -1,3 +1,4 @@
+
 <!DOCTYPE html><html lang="en"><head>
 	<meta charset="UTF-8">
 	<title>Event Management Company in Madurai | Quince Sparrow Events</title>
@@ -43,8 +44,81 @@
 }
 </script>
 
-   
+   <style>
+    /* Container fills viewport */
+    .hero-video-container {
+      position: relative;
+      width: 100%;
+      height: 100vh; /* Full viewport height */
+      overflow: hidden;
+    }
+
+    /* Video fills container */
+    .hero-video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Cover container without distortion */
+      display: block;
+    }
+
+    /* Overlay for text or dark filter */
+    .hero-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.3); /* optional semi-transparent overlay */
+      pointer-events: none;
+    }
+
+    .hero-overlay h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    .hero-overlay p {
+      font-size: 1.5rem;
+      margin-top: 10px;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .hero-overlay h1 {
+        font-size: 2rem;
+      }
+      .hero-overlay p {
+        font-size: 1rem;
+      }
+    }
+		.first-list {
+  display: flex;
+  gap: 1px; /* spacing between menu items */
+  margin: 0;
+  padding: 0;
+}
+
+.first-list li a {
+  text-decoration: none;
+  color: #fff; /* default white text */
+  font-weight: 300; /* thicker text */
+  font-size: 20px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+/* underline effect on hover */
+  padding-bottom: 4px;
+}
+
+.first-list li a:hover {
+  color: #B88917; /* gold color */
  
+}
+  </style>
 	<!-- title icon-->
 	<link rel="shortcut icon" href="images/weblogo.svg" type="image/svg+xml">
 	<!-- libs css-->
@@ -231,39 +305,40 @@ src="https://www.facebook.com/tr?id=1447466952324848&ev=PageView&noscript=1"
         			<div class="events-rights">
         				<div class="events-wrapper">
         					<div class="events-slider events-slider-2">
-        						        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-1.jpg" data-fancybox="La Fiesta" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-1.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-2.jpg" data-fancybox="La Fiesta" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-2.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-3.jpg" data-fancybox="La Fiesta" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-3.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-4.jpg" data-fancybox="La Fiesta" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-4.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-5-1.jpg" data-fancybox="La Fiesta" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-5-1.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-6.jpg" data-fancybox="La Fiesta" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-6.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-7.jpg" data-fancybox="La Fiesta" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-7.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-8.jpg" data-fancybox="La Fiesta" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-8.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-9.jpg" data-fancybox="La Fiesta" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-9.jpg"></a>
+							 <a href="images/wed1.jpg" data-fancybox="La Fiesta" class="events-slide photo-bg" data-src="images/wed1.jpg"></a>
+    <a href="images/wed2.jpg" data-fancybox="La Fiesta" class="events-slide photo-bg" data-src="images/wed2.jpg"></a>
+    <a href="images/wed3.jpg" data-fancybox="La Fiesta" class="events-slide photo-bg" data-src="images/wed3.jpg"></a>
+    <a href="images/wed4.jpg" data-fancybox="La Fiesta" class="events-slide photo-bg" data-src="images/wed4.jpg"></a>
+    <a href="images/wed5.jpg" data-fancybox="La Fiesta" class="events-slide photo-bg" data-src="images/wed5.jpg"></a>
+    <a href="images/wed6.jpg" data-fancybox="La Fiesta" class="events-slide photo-bg" data-src="images/wed6.jpg"></a>
+    <a href="images/wed7.jpg" data-fancybox="La Fiesta" class="events-slide photo-bg" data-src="images/wed7.jpg"></a>
+    <a href="images/wed8.jpg" data-fancybox="La Fiesta" class="events-slide photo-bg" data-src="images/wed8.jpg"></a>
+    <a href="images/wed9.jpg" data-fancybox="La Fiesta" class="events-slide photo-bg" data-src="images/wed9.jpg"></a>
+
         						            						        					</div>
         					<div class="events-navslider-arrows mob-true">
         						<a href="#" class="events-navslider-arrow events-prev events-prev-1">
-        							<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 12" fill="none">
+        						 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 12" fill="none">
         							  <path d="M14 6.46154L1.88842 6.46154L7.0791 11.3077L6.42655 12L-2.62268e-07 6L6.42655 6.72761e-07L7.0791 0.692308L1.88842 5.53846L14 5.53846L14 6.46154Z" fill="white"></path> -->
-        							<!-- </svg> -->
+        							</svg> 
         						</a>
         						<a href="#" class="events-navslider-arrow events-next events-next-1">
-        							<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 12" fill="none">
+        							 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 12" fill="none">
         							  <path d="M-8.87629e-07 5.53846L12.1116 5.53846L6.9209 0.692308L7.57345 7.66359e-08L14 6L7.57345 12L6.9209 11.3077L12.1116 6.46154L-8.76621e-07 6.46154L-8.87629e-07 5.53846Z" fill="white"></path>
-        							</svg> -->
+        							</svg>
         						</a>
         					</div>
         					<div class="events-navslider-wrapper">
         						<div class="events-navslider events-navslider-2">
-        							        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-1.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-2.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-3.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-4.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-5-1.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-6.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-7.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-8.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-9.jpg"></div>
+																				  <div class="events-navslide photo-bg" data-src="images/wed1.jpg"></div>
+    <div class="events-navslide photo-bg" data-src="images/wed2.jpg"></div>
+    <div class="events-navslide photo-bg" data-src="images/wed3.jpg"></div>
+    <div class="events-navslide photo-bg" data-src="images/wed4.jpg"></div>
+    <div class="events-navslide photo-bg" data-src="images/wed5.jpg"></div>
+    <div class="events-navslide photo-bg" data-src="images/wed6.jpg"></div>
+    <div class="events-navslide photo-bg" data-src="images/wed7.jpg"></div>
+    <div class="events-navslide photo-bg" data-src="images/wed8.jpg"></div>
+    <div class="events-navslide photo-bg" data-src="images/wed9.jpg"></div>
         							            							        						</div>
         						<div class="events-navslider-arrows">
         							<a href="#" class="events-navslider-arrow events-prev events-prev-2">
@@ -278,34 +353,244 @@ src="https://www.facebook.com/tr?id=1447466952324848&ev=PageView&noscript=1"
         			</div>
         			<div class="holiday-right scroll-parent">
         				<div class="scroll-wrapper">
-        					<h2 class="holiday__title">
-        						La Fiesta – аутентичная мексиканская вечеринка в самом сердце России        					</h2>
-        					<div class="holiday-text">
-        						<p>Royal Event превратил загородный ресторан в атмосферный уголок солнечной Мексики,<br>
-создав уникальный праздник с полным погружением в культуру. La Fiesta стала настоящим<br>
-шоу, сочетающим яркие краски, живую музыку, аутентичную гастрономию и продуманный<br>
-интерактив для гостей.</p>
-<p>Для воссоздания подлинной атмосферы мы полностью изменили пространство: яркий<br>
-колоритный декор, национальные узоры, экзотические растения, брендированные игровые<br>
-зоны и тематические фотозоны. На входе гостей встречал фуршет с традиционными<br>
-мексиканскими закусками и бар с авторскими коктейлями на основе текилы и мескаля.<br>
-Важной частью атмосферы стал дресс-код – все гости были одеты в традиционном<br>
-мексиканском стиле, что усиливало эффект погружения.</p>
-<p>Одним из главных акцентов мероприятия стало выступление настоящих мексиканских<br>
-музыкантов, которые привезли на этот вечер подлинный дух Латинской Америки. Живые<br>
-гитарные ритмы, темпераментные голоса и зажигательные мелодии создавали ощущение,<br>
-будто праздник проходит на улицах Мехико.</p>
-<p>Ключевым элементом программы стали интерактивные зоны и квесты, разработанные<br>
-специально для этого события, мастер-классы, творческие номера от гостей вечеринки,<br>
-которые наполнили вечер душевностью. Хэдлайнером вечера стала Пелагея, подарив<br>
-гостям яркое музыкальное шоу.</p>
-<p>Гастрономическая составляющая праздника была проработана до мельчайших деталей –<br>
-мы разработали авторское меню на основе традиционных мексиканских блюд: такос,<br>
-кесадильи, начос с гуакамоле. Финальным акцентом ужина стала подача торта необычной<br>
-формы, который стал настоящим арт-объектом.</p>
-<p>Финал вечеринки был не менее эффектным: танцевальный флешмоб, зажигательный DJ<br>
-сет, караоке и коктейли до самого утра. La Fiesta стала воплощением страсти, ритма и<br>
-настоящего мексиканского веселья, оставив неизгладимые впечатления у каждого гостя.</p>
+        					<h2 class="holiday__title" style="  margin-bottom: 50px">
+    A Vibrant Wedding Celebration in the Heart of Madurai
+</h2>
+
+<div class="holiday-text">
+    <p>
+        Quince Sparrow Events transformed a serene countryside venue into a stunning
+        tropical paradise, creating a one-of-a-kind wedding celebration inspired by
+        the warmth and color of Mexican festivals. <br>
+        “La Fiesta” became a dazzling show that combined vibrant décor, live music,
+        signature cuisine, and immersive guest experiences.
+    </p>
+
+    <p>
+        To recreate an authentic festive atmosphere, the entire space was reimagined —
+        colorful drapes, intricate patterns, lush floral arrangements, personalized
+        décor elements, and themed photo zones. <br>
+        Guests were welcomed with a refreshing cocktail reception featuring Mexican-inspired
+        bites and custom drinks. <br>
+        A creative dress code added extra charm, as every guest embraced vibrant traditional
+        hues that reflected the joyful theme.
+    </p>
+
+    <p>
+        One of the evening’s highlights was the performance by live Latin musicians,
+        bringing the true spirit of celebration to life. <br>
+        The rhythmic beats, passionate vocals, and energetic melodies created an
+        atmosphere that made everyone feel as though the wedding was unfolding
+        under the skies of Cancún.
+    </p>
+
+    <p>
+        The entertainment program featured interactive stations and fun couple challenges,
+        designed exclusively for the bride, groom, and guests. <br>
+        Creative acts, music performances, and spontaneous dance moments filled the evening
+        with laughter and love. <br>
+        The night’s special guest artist delivered an unforgettable live show that
+        became the emotional centerpiece of the event.
+    </p>
+
+    <p>
+        The culinary experience was crafted with exceptional attention to detail —
+        a curated menu inspired by both Indian and Mexican flavors. <br>
+        Guests enjoyed hand-tossed tacos, spiced quesadillas, nachos with guacamole,
+        and fusion desserts. <br>
+        The wedding cake, designed as a modern art sculpture, became the grand visual highlight
+        of the dinner.
+    </p>
+
+    <p>
+        The finale was equally spectacular — a synchronized dance flash mob, a
+        high-energy DJ session, karaoke, and late-night cocktails under the stars. <br>
+        “La Fiesta” truly embodied passion, rhythm, and togetherness, leaving every
+        guest with cherished memories and a heart full of joy.
+    </p>
+</div>
+
+        				</div>
+        				<a href="#" class="scroll-parent__btn mob-true">
+        					Show More Text
+        				</a>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+                <div class="modal-window modal-callback modal-sliders">
+        	<div class="inner">
+        		<img src="images/modal-close.svg" alt="" class="modal-window__close">
+        		<div class="holiday-row row">
+        			<div class="events-rights">
+        				<div class="events-wrapper">
+        					<div class="events-slider events-slider-2">
+        						        						            <a href="images/corporate1.jpg" data-fancybox="Dreamland" class="events-slide photo-bg" data-src="images/corporate1.jpg"></a>
+        						            						        <a href="images/corporate2.jpg" data-fancybox="Dreamland" class="events-slide photo-bg" data-src="images/corporate2.jpg"></a>
+        						            						        <a href="images/corporate3.jpg" data-fancybox="Dreamland" class="events-slide photo-bg" data-src="images/corporate3.jpg"></a>
+        						            						        <a href="images/corporate4.jpg" data-fancybox="Dreamland" class="events-slide photo-bg" data-src="images/corporate4.jpg"></a>
+        						            						        <a href="images/corporate5.jpg" data-fancybox="Dreamland" class="events-slide photo-bg" data-src="images/corporate5.jpg"></a>
+        						            						        <a href="images/corporate6.jpg" data-fancybox="Dreamland" class="events-slide photo-bg" data-src="images/corporate6.jpg"></a>
+        						            						        <a href="images/corporate7.jpg" data-fancybox="Dreamland" class="events-slide photo-bg" data-src="images/corporate7.jpg"></a>
+        						            						        <a href="images/corporate8.jpg" data-fancybox="Dreamland" class="events-slide photo-bg" data-src="images/corporate8.jpg"></a>
+        						            						        <a href="images/corporate9.jpg" data-fancybox="Dreamland" class="events-slide photo-bg" data-src="images/corporate9.jpg"></a>
+        						            						        					</div>
+        					<div class="events-navslider-arrows mob-true">
+        						<a href="#" class="events-navslider-arrow events-prev events-prev-1">
+        							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 12" fill="none">
+        							  <path d="M14 6.46154L1.88842 6.46154L7.0791 11.3077L6.42655 12L-2.62268e-07 6L6.42655 6.72761e-07L7.0791 0.692308L1.88842 5.53846L14 5.53846L14 6.46154Z" fill="white"></path>
+        							</svg>
+        						</a>
+        						<a href="#" class="events-navslider-arrow events-next events-next-1">
+        							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 12" fill="none">
+        							  <path d="M-8.87629e-07 5.53846L12.1116 5.53846L6.9209 0.692308L7.57345 7.66359e-08L14 6L7.57345 12L6.9209 11.3077L12.1116 6.46154L-8.76621e-07 6.46154L-8.87629e-07 5.53846Z" fill="white"></path>
+        							</svg>
+        						</a>
+        					</div>
+        					<div class="events-navslider-wrapper">
+        						<div class="events-navslider events-navslider-2">
+        							        							           	<div class="events-navslide photo-bg" data-src="images/corporate1.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/corporate2.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/corporate3.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/corporate4.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/corporate5.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/corporate6.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/corporate7.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/corporate8.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/corporate9.jpg"></div>
+        							            							        						</div>
+        						<div class="events-navslider-arrows">
+        							<a href="#" class="events-navslider-arrow events-prev events-prev-2">
+        								<img src="images/events-arrow.svg" alt="">
+        							</a>
+        							<a href="#" class="events-navslider-arrow events-next events-next-2">
+        								<img src="images/events-arrow.svg" alt="">
+        							</a>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="holiday-right scroll-parent">
+        				<div class="scroll-wrapper">
+        					<h2 class="holiday__title" style=" margin-bottom: 50px; ">
+    INNOVATE – IMMERSIVE CORPORATE EVENT <br>
+FOR ACME CORP
+</h2>
+<div class="holiday-text">
+    <p>Dynamic, ambitious, and inspiring – ACME Corp envisioned an event that showcased<br>
+their innovative spirit. We brought this vision to life by creating Innovate – a space where<br>
+strategy meets creativity, and employees become part of an interactive corporate experience.</p>
+
+    <p>For this project, we transformed a modern convention center in just three setup days<br>
+into a fully immersive environment. The venue was designed with themed zones, interactive<br>
+stations, and engaging installations, where every element, from presentation stages to décor,<br>
+aligned with a cohesive corporate narrative.</p>
+
+    <p>The engagement began even before the event. Attendees received personalized<br>
+invitations delivered by a dedicated courier, featuring a puzzle that had to be solved<br>
+to unlock a private portal with event insights and pre-event activities.</p>
+
+    <p>Upon arrival, participants were welcomed by facilitators and immersive hosts,<br>
+guiding everyone through unique interactive sessions. The space was filled with<br>
+unexpected experiences, live demonstrations, and hands-on workshops, turning the event into<br>
+a dynamic, participatory corporate showcase where every attendee played a part.</p>
+
+    <p>One of the most memorable highlights – a spectacular multimedia presentation, culminating<br>
+in a live reveal of ACME’s latest product innovations. It became the show-stopping moment,<br>
+underscoring the company’s vision and the energy of the event.</p>
+
+    <p>This corporate gathering was more than just a meeting; it was a journey into creativity and<br>
+collaboration, where ideas came to life. While the details of Innovate remain exclusive,<br>
+attendees will remember this inspiring and unparalleled experience for years to come.</p>
+</div>
+
+        				</div>
+        				<a href="#" class="scroll-parent__btn mob-true">
+        					Show More Text
+        				</a>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+                <div class="modal-window modal-callback modal-sliders">
+        	<div class="inner">
+        		<img src="images/modal-close.svg" alt="" class="modal-window__close">
+        		<div class="holiday-row row">
+        			<div class="events-rights">
+        				<div class="events-wrapper">
+        					<div class="events-slider events-slider-2">
+        						        						            <a href="images/photography/7.jpg" data-fancybox="Milestone celebration" class="events-slide photo-bg" data-src="images/photography/7.jpg"></a>
+        						            						        <a href="images/photography/3.jpg" data-fancybox="Milestone celebration" class="events-slide photo-bg" data-src="images/photography/3.jpg"></a>
+        						            						        <a href="images/photography/5.jpg" data-fancybox="Milestone celebration" class="events-slide photo-bg" data-src="images/photography/5.jpg"></a>
+        						            						        <a href="images/photography/1.jpg" data-fancybox="Milestone celebration" class="events-slide photo-bg" data-src="images/photography/1.jpg"></a>
+        						            						        <a href="images/photography/12.jpg" data-fancybox="Milestone celebration" class="events-slide photo-bg" data-src="images/photography/12.jpg"></a>
+        						            						        <a href="images/photography/13.jpg" data-fancybox="Milestone celebration" class="events-slide photo-bg" data-src="images/photography/13.jpg"></a>
+        						            						        <a href="images/photography/15.jpg" data-fancybox="Milestone celebration" class="events-slide photo-bg" data-src="images/photography/15.jpg"></a>
+																			<a href="images/photography/17.jpg" data-fancybox="Milestone celebration" class="events-slide photo-bg" data-src="images/photography/17.jpg"></a>
+																			<a href="images/photography/18.jpg" data-fancybox="Milestone celebration" class="events-slide photo-bg" data-src="images/photography/18.jpg"></a>
+        						            						        					</div>
+        					<div class="events-navslider-arrows mob-true">
+        						<a href="#" class="events-navslider-arrow events-prev events-prev-1">
+        							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 12" fill="none">
+        							  <path d="M14 6.46154L1.88842 6.46154L7.0791 11.3077L6.42655 12L-2.62268e-07 6L6.42655 6.72761e-07L7.0791 0.692308L1.88842 5.53846L14 5.53846L14 6.46154Z" fill="white"></path>
+        							</svg>
+        						</a>
+        						<a href="#" class="events-navslider-arrow events-next events-next-1">
+        							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 12" fill="none">
+        							  <path d="M-8.87629e-07 5.53846L12.1116 5.53846L6.9209 0.692308L7.57345 7.66359e-08L14 6L7.57345 12L6.9209 11.3077L12.1116 6.46154L-8.76621e-07 6.46154L-8.87629e-07 5.53846Z" fill="white"></path>
+        							</svg>
+        						</a>
+        					</div>
+        					<div class="events-navslider-wrapper">
+        						<div class="events-navslider events-navslider-2">
+        							        							            <div class="events-navslide photo-bg" data-src="images/photography/7.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/photography/3.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/photography/5.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/photography/1.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/photography/12.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/photography/13.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/photography/15.jpg"></div>
+																					<div class="events-navslide photo-bg" data-src="images/photography/17.jpg"></div>
+																					<div class="events-navslide photo-bg" data-src="images/photography/18.jpg"></div>
+
+        							            							        						</div>
+        						<div class="events-navslider-arrows">
+        							<a href="#" class="events-navslider-arrow events-prev events-prev-2">
+        								<img src="images/events-arrow.svg" alt="">
+        							</a>
+        							<a href="#" class="events-navslider-arrow events-next events-next-2">
+        								<img src="images/events-arrow.svg" alt="">
+        							</a>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="holiday-right scroll-parent">
+        				<div class="scroll-wrapper">
+        					<h2 class="holiday__title" style=" margin-bottom: 50px; ">
+    EVENT PHOTOGRAPHY – CAPTURING ELEGANCE IN EVERY FRAME
+</h2>
+
+<div class="holiday-text">
+    <p>Crafting visual stories through event photography means preserving emotions, details, 
+    and energy in every shot. Our photography team takes care of every aspect — from concept 
+    and lighting to candid guest moments — ensuring every image feels authentic, elegant, 
+    and unforgettable.</p>
+
+    <p>The highlight of our recent project took place at the prestigious Skyline Grand Venue, 
+    where modern design met refined style. We captured each moment — from the golden glow of 
+    the welcome cocktail to the laughter echoing through the main hall — using cinematic 
+    lighting that reflected the atmosphere’s sophistication.</p>
+
+    <p>Throughout the evening, our photographers focused on genuine emotions, spontaneous joy, 
+    and the small yet powerful details that define a celebration. Each frame told its own 
+    story, blending artistic composition with natural emotion.</p>
+
+    <p>Our event photography unites emotion and aesthetics, transforming every occasion into a 
+    timeless visual experience. With our lens, style, comfort, and atmosphere come together 
+    to create memories that last long after the event ends.</p>
+
+
         					</div>
         				</div>
         				<a href="#" class="scroll-parent__btn mob-true">
@@ -322,15 +607,16 @@ src="https://www.facebook.com/tr?id=1447466952324848&ev=PageView&noscript=1"
         			<div class="events-rights">
         				<div class="events-wrapper">
         					<div class="events-slider events-slider-2">
-        						        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-1.jpg" data-fancybox="Dreamland" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-1.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-2.jpg" data-fancybox="Dreamland" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-2.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-3.jpg" data-fancybox="Dreamland" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-3.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-4.jpg" data-fancybox="Dreamland" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-4.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-5.jpg" data-fancybox="Dreamland" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-5.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-6.jpg" data-fancybox="Dreamland" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-6.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-7.jpg" data-fancybox="Dreamland" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-7.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-8.jpg" data-fancybox="Dreamland" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-8.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-9.jpg" data-fancybox="Dreamland" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-9.jpg"></a>
+        						        						            <a href="images/bd/bd2.jpeg" data-fancybox="The Vibrant Pool Escape" class="events-slide photo-bg" data-src="images/bd/bd2.jpeg"></a>
+        						            						        <a href="images/bd/bd3.jpeg" data-fancybox="The Vibrant Pool Escape" class="events-slide photo-bg" data-src="images/bd/bd3.jpeg"></a>
+        						            						        <a href="images/bd/bd4.jpeg" data-fancybox="The Vibrant Pool Escape" class="events-slide photo-bg" data-src="images/bd/bd4.jpeg"></a>
+        						            						        <a href="images/bd/bd5.jpeg" data-fancybox="The Vibrant Pool Escape" class="events-slide photo-bg" data-src="images/bd/bd5.jpeg"></a>
+        						            						        <a href="images/bd/bd6.jpeg" data-fancybox="The Vibrant Pool Escape" class="events-slide photo-bg" data-src="images/bd/bd6.jpeg"></a>
+        						            						        <a href="images/bd/bd7.jpeg" data-fancybox="The Vibrant Pool Escape" class="events-slide photo-bg" data-src="images/bd/bd7.jpeg"></a>
+        						            						        <a href="images/bd/bd8.jpeg" data-fancybox="The Vibrant Pool Escape" class="events-slide photo-bg" data-src="images/bd/bd8.jpeg"></a>
+        						            						        <a href="images/bd/bd9.jpeg" data-fancybox="The Vibrant Pool Escape" class="events-slide photo-bg" data-src="images/bd/bd9.jpeg"></a>
+        						            						        <a href="images/bd/bd10.jpeg" data-fancybox="The Vibrant Pool Escape" class="events-slide photo-bg" data-src="images/bd/bd10.jpeg"></a>
+        						            						        <a href="images/bd/bd11.jpeg" data-fancybox="The Vibrant Pool Escape" class="events-slide photo-bg" data-src="images/bd/bd11.jpeg"></a>
         						            						        					</div>
         					<div class="events-navslider-arrows mob-true">
         						<a href="#" class="events-navslider-arrow events-prev events-prev-1">
@@ -346,15 +632,16 @@ src="https://www.facebook.com/tr?id=1447466952324848&ev=PageView&noscript=1"
         					</div>
         					<div class="events-navslider-wrapper">
         						<div class="events-navslider events-navslider-2">
-        							        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-1.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-2.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-3.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-4.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-5.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-6.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-7.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-8.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royalevent-9.jpg"></div>
+        							        							        	<div class="events-navslide photo-bg" data-src="images/bd/bd2.jpeg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/bd/bd3.jpeg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/bd/bd4.jpeg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/bd/bd5.jpeg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/bd/bd6.jpeg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/bd/bd7.jpeg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/bd/bd8.jpeg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/bd/bd9.jpeg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/bd/bd10.jpeg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/bd/bd11.jpeg"></div>
         							            							        						</div>
         						<div class="events-navslider-arrows">
         							<a href="#" class="events-navslider-arrow events-prev events-prev-2">
@@ -369,34 +656,30 @@ src="https://www.facebook.com/tr?id=1447466952324848&ev=PageView&noscript=1"
         			</div>
         			<div class="holiday-right scroll-parent">
         				<div class="scroll-wrapper">
-        					<h2 class="holiday__title">
-        						DREAMLAND – ИММЕРСИВНЫЙ ДЕНЬ <br>
-РОЖДЕНИЯ ДЛЯ ДОМЕНИКИ        					</h2>
-        					<div class="holiday-text">
-        						<p>Энергичная, смелая, притягательная – Доменика мечтала о празднике, который отражал<br>
-бы её яркую индивидуальность. Мы воплотили эту идею, создав Dreamland – мир, где<br>
-реальность переплетается с фантазией, а гости становятся частью грандиозного<br>
-театрального действа.</p>
-<p>Для этого проекта мы арендовали настоящий средневековый замок и за три монтажных<br>
-дня полностью преобразили его. Пространство превратилось в лабиринт из тайных<br>
-комнат, скрытых переходов и мистических зон, где каждая деталь, от костюмов актёров до<br>
-декора, подчинялась единому сценарию.</p>
-<p>Погружение в Dreamland начиналось ещё до самого мероприятия. Гости получали тайное<br>
-приглашение, доставленное персональным курьером в образе загадочного персонажа.<br>
-Вместо обычного конверта – карамелизированный шар, который нужно было разбить,<br>
-чтобы достать скрытое внутри послание и получить доступ к закрытому сайту с деталями<br>
-вечеринки.</p>
-<p>Когда гости прибывали в замок, их ждали десятки актёров и иммерсивные артисты,<br>
-вовлекавшие каждого в уникальный сюжет. Пространство было наполнено неожиданными<br>
-поворотами, спецэффектами и уникальными элементами, превращая праздник в живую<br>
-театральную постановку, в которой у каждого была своя роль.</p>
-<p>Один из самых захватывающих моментов вечера – грандиозное файер-шоу, в финале<br>
-которого огнемёты зажгли инсталляцию с названием вечеринки. Это стало эффектной<br>
-кульминацией Dreamland, подчеркнув силу эмоций и атмосферу вечера.</p>
-<p>Этот день рождения стал не просто праздником, а путешествием в иной мир, где<br>
-исполняются мечты. И хотя детали Dreamland останутся тайной для внешнего мира, гости<br>
-навсегда запомнили это волшебное и уникальное событие.</p>
-        					</div>
+        					<h2 class="holiday__title" style=" margin-bottom: 50px; ">
+    BIRTHDAY CELEBRATION – VIBRANT <br>
+    PARTY EXPERIENCE
+</h2>
+<div class="holiday-text">
+    <p>Bright colors, lively music, and cheerful vibes – this day became a truly memorable birthday celebration.<br>
+    We transformed a private venue into a festive space, carefully planning every detail to make the occasion special and enjoyable for all guests.</p>
+    
+    <p>The venue was decorated with a colorful theme of balloons, streamers, and personalized décor,<br>
+    creating a joyful and playful atmosphere. Custom banners, themed table settings, and unique party favors added a personalized touch for the birthday guest of honor.</p>
+    
+    <p>The program was dynamic and fun-filled: DJs kept the energy high, interactive games and activities<br>
+    engaged guests of all ages, and delicious treats and drinks kept everyone refreshed while enjoying the celebrations.</p>
+    
+    <p>The highlight of the party was a special photo booth where guests could record messages, take fun photos,<br>
+    and create memories that were later compiled into a digital keepsake for the birthday honoree.</p>
+    
+    <p>As the evening progressed, the party moved to an open-air lounge with cozy seating, ambient lighting, and<br>
+    a large screen showing a slideshow of photos and videos from the day, bringing everyone together to relive the highlights.</p>
+    
+    <p>The perfect combination of lively fun, stylish décor, and seamless organization left every guest with unforgettable<br>
+    memories and a joyful impression of the celebration.</p>
+</div>
+
         				</div>
         				<a href="#" class="scroll-parent__btn mob-true">
         					Show More Text
@@ -412,13 +695,15 @@ src="https://www.facebook.com/tr?id=1447466952324848&ev=PageView&noscript=1"
         			<div class="events-rights">
         				<div class="events-wrapper">
         					<div class="events-slider events-slider-2">
-        						        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/milestone-celebration-yubilej-v-dubae-royalevent-1.jpg" data-fancybox="Milestone celebration" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/milestone-celebration-yubilej-v-dubae-royalevent-1.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/milestone-celebration-yubilej-v-dubae-royalevent-2.jpg" data-fancybox="Milestone celebration" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/milestone-celebration-yubilej-v-dubae-royalevent-2.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/milestone-celebration-yubilej-v-dubae-royalevent-3.jpg" data-fancybox="Milestone celebration" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/milestone-celebration-yubilej-v-dubae-royalevent-3.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/milestone-celebration-yubilej-v-dubae-royalevent-5.jpg" data-fancybox="Milestone celebration" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/milestone-celebration-yubilej-v-dubae-royalevent-5.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/milestone-celebration-yubilej-v-dubae-royalevent-6.jpg" data-fancybox="Milestone celebration" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/milestone-celebration-yubilej-v-dubae-royalevent-6.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/milestone-celebration-yubilej-v-dubae-royalevent-7.jpg" data-fancybox="Milestone celebration" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/milestone-celebration-yubilej-v-dubae-royalevent-7.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/milestone-celebration-yubilej-v-dubae-royalevent-8-1.jpg" data-fancybox="Milestone celebration" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/milestone-celebration-yubilej-v-dubae-royalevent-8-1.jpg"></a>
+        						        						           	<a href="images/costume/c1.jpg" data-fancybox="Circle of love" class="events-slide photo-bg" data-src="images/costume/c1.jpg"></a>
+        						            						        <a href="images/costume/c2.jpg" data-fancybox="Circle of love" class="events-slide photo-bg" data-src="images/costume/c2.jpg"></a>
+        						            						        <a href="images/costume/c3.jpg" data-fancybox="Circle of love" class="events-slide photo-bg" data-src="images/costume/c3.jpg"></a>
+        						            						        <a href="images/costume/c4.jpg" data-fancybox="Circle of love" class="events-slide photo-bg" data-src="images/costume/c4.jpg"></a>
+        						            						        <a href="images/costume/c5.jpg" data-fancybox="Circle of love" class="events-slide photo-bg" data-src="images/costume/c5.jpg"></a>
+        						            						        <a href="images/costume/c6.jpg" data-fancybox="Circle of love" class="events-slide photo-bg" data-src="images/costume/c6.jpg"></a>
+        						            						        <a href="images/costume/c7.jpg" data-fancybox="Circle of love" class="events-slide photo-bg" data-src="images/costume/c7.jpg"></a>
+        						            						        <a href="images/costume/c8.jpg" data-fancybox="Circle of love" class="events-slide photo-bg" data-src="images/costume/c8.jpg"></a>
+        						            						        <a href="images/costume/c9.jpg" data-fancybox="Circle of love" class="events-slide photo-bg" data-src="images/costume/c9.jpg"></a>
         						            						        					</div>
         					<div class="events-navslider-arrows mob-true">
         						<a href="#" class="events-navslider-arrow events-prev events-prev-1">
@@ -434,13 +719,15 @@ src="https://www.facebook.com/tr?id=1447466952324848&ev=PageView&noscript=1"
         					</div>
         					<div class="events-navslider-wrapper">
         						<div class="events-navslider events-navslider-2">
-        							        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/milestone-celebration-yubilej-v-dubae-royalevent-1.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/milestone-celebration-yubilej-v-dubae-royalevent-2.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/milestone-celebration-yubilej-v-dubae-royalevent-3.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/milestone-celebration-yubilej-v-dubae-royalevent-5.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/milestone-celebration-yubilej-v-dubae-royalevent-6.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/milestone-celebration-yubilej-v-dubae-royalevent-7.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/milestone-celebration-yubilej-v-dubae-royalevent-8-1.jpg"></div>
+        							        							    		<div class="events-navslide photo-bg" data-src="images/costume/c1.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/costume/c2.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/costume/c3.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/costume/c4.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/costume/c5.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/costume/c6.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/costume/c7.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/costume/c8.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/costume/c9.jpg"></div>
         							            							        						</div>
         						<div class="events-navslider-arrows">
         							<a href="#" class="events-navslider-arrow events-prev events-prev-2">
@@ -455,27 +742,17 @@ src="https://www.facebook.com/tr?id=1447466952324848&ev=PageView&noscript=1"
         			</div>
         			<div class="holiday-right scroll-parent">
         				<div class="scroll-wrapper">
-        					<h2 class="holiday__title">
-        						ЮБИЛЕЙ В ДУБАЕ – ИЗЫСКАННЫЙ ПРАЗДНИК<br>
-В АТМОСФЕРЕ РОСКОШИ        					</h2>
-        					<div class="holiday-text">
-        						<p>Организовать праздничный уикенд в Дубае – значит создать яркое и запоминающееся<br>
-событие, наполненное заботой о каждом госте. Наша команда взяла на себя все аспекты<br>
-организации мероприятия: логистику, размещение гостей, продуманную развлекательную<br>
-программу, чтобы каждый момент был комфортным, элегантным и впечатляющим.</p>
-<p>Главное торжество прошло в роскошном отеле Delano Dubai, где удалось создать<br>
-идеальный баланс душевности и восточного шика. Вечер начался с изысканной welcome<br>
-зоны на открытой площадке – тёплая атмосфера, вечерний свет и панорамные виды на<br>
-город задавали подходящее настроение на весь вечер. Затем гости переместились в<br>
-элегантный банкетный зал, оформленный в утончённых тонах с тонкими деталями,<br>
-подчёркивающими эстетику динамичного Дубая.</p>
-<p>Программа вечера была наполнена творческими номерами, сюрпризами и трогательными<br>
-моментами от семьи и друзей, каждый из которых был частью этой особенной истории.<br>
-Хэдлайнером вечера стала Лолита, чьё выступление стало ярким акцентом мероприятия.</p>
-<p>Юбилей объединил уютную семейную атмосферу и эстетику люкса, сделав праздник<br>
-тёплым, но в то же время по-настоящему впечатляющим. В каждом элементе сочетались<br>
-комфорт, стиль и атмосфера города.</p>
-        					</div>
+        					<h2 class="holiday__title" style=" margin-bottom: 50px; ">
+	ELEGANT COSTUME DESIGN SHOWCASE AT THE GULF COAST
+</h2>
+<div class="holiday-text">
+	<p>The open-air showcase blended artistry and innovation, unfolding in a stunning coastal venue where refined fashion met cutting-edge stage technology. The serene seaside atmosphere was elevated by a captivating visual experience.</p>
+	<p>At the heart of the concept stood a single extended runway, bringing designers, models, and guests together in one shared creative space. The highlight was a unique LED floor display seamlessly integrated into the stage, surrounding the audience with immersive visuals that enhanced every costume’s story and detail.</p>
+	<p>The evening opened with a graceful instrumental ensemble, setting an elegant tone for what followed. The program featured thematic fashion sequences revealing the spirit of the event, with appearances by renowned designers, creative choreographers, and a celebrated DJ curating an exquisite soundscape to complement each segment.</p>
+	<p>Special attention was given to the technical production: panoramic LED screens along the runway and around the venue formed a cohesive visual canvas, creating a 360-degree fashion experience. Exclusive motion graphics and design motifs were developed to unify all elements of the evening, reflecting the idea of art, culture, and individuality merging in one creative circle.</p>
+	<p>The night concluded with a spectacular light-and-laser finale and the unveiling of a signature couture masterpiece, closing this meticulously crafted celebration of design. Every detail—from color palettes to stage layout—was harmonized to deliver an unforgettable, stylish, and immersive experience.</p>
+</div>
+
         				</div>
         				<a href="#" class="scroll-parent__btn mob-true">
         					Show More Text
@@ -491,16 +768,14 @@ src="https://www.facebook.com/tr?id=1447466952324848&ev=PageView&noscript=1"
         			<div class="events-rights">
         				<div class="events-wrapper">
         					<div class="events-slider events-slider-2">
-        						        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-1.jpg" data-fancybox="The Vibrant Pool Escape" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-1.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-2.jpg" data-fancybox="The Vibrant Pool Escape" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-2.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-3.jpg" data-fancybox="The Vibrant Pool Escape" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-3.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-4.jpg" data-fancybox="The Vibrant Pool Escape" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-4.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-5.jpg" data-fancybox="The Vibrant Pool Escape" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-5.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-6.jpg" data-fancybox="The Vibrant Pool Escape" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-6.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-7.jpg" data-fancybox="The Vibrant Pool Escape" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-7.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-8.jpg" data-fancybox="The Vibrant Pool Escape" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-8.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-9.jpg" data-fancybox="The Vibrant Pool Escape" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-9.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-10.jpg" data-fancybox="The Vibrant Pool Escape" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-10.jpg"></a>
+        						        						            <a href="images/food/f0.jpg" data-fancybox="Chapter 50: A Luxe Celebration" class="events-slide photo-bg" data-src="images/food/f0.jpg"></a>
+        						            						        <a href="images/food/f1.jpg" data-fancybox="Chapter 50: A Luxe Celebration" class="events-slide photo-bg" data-src="images/food/f1.jpg"></a>
+        						            						        <a href="images/food/f2.jpg" data-fancybox="Chapter 50: A Luxe Celebration" class="events-slide photo-bg" data-src="images/food/f2.jpg"></a>
+        						            						        <a href="images/food/f3.jpg" data-fancybox="Chapter 50: A Luxe Celebration" class="events-slide photo-bg" data-src="images/food/f3.jpg"></a>
+        						            						        <a href="images/food/f4.jpg" data-fancybox="Chapter 50: A Luxe Celebration" class="events-slide photo-bg" data-src="images/food/f4.jpg"></a>
+        						            						        <a href="images/food/f5.jpg" data-fancybox="Chapter 50: A Luxe Celebration" class="events-slide photo-bg" data-src="images/food/f5.jpg"></a>
+        						            						        <a href="images/food/f6.jpg" data-fancybox="Chapter 50: A Luxe Celebration" class="events-slide photo-bg" data-src="images/food/f6.jpg"></a>
+        						            						        <a href="images/food/f7.jpg" data-fancybox="Chapter 50: A Luxe Celebration" class="events-slide photo-bg" data-src="images/food/f7.jpg"></a>
         						            						        					</div>
         					<div class="events-navslider-arrows mob-true">
         						<a href="#" class="events-navslider-arrow events-prev events-prev-1">
@@ -516,16 +791,14 @@ src="https://www.facebook.com/tr?id=1447466952324848&ev=PageView&noscript=1"
         					</div>
         					<div class="events-navslider-wrapper">
         						<div class="events-navslider events-navslider-2">
-        							        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-1.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-2.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-3.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-4.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-5.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-6.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-7.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-8.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-9.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/the-vibrant-pool-escape-pool-party-v-dubae-royalevent-10.jpg"></div>
+        							        							            <div class="events-navslide photo-bg" data-src="images/food/f0.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/food/f1.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/food/f2.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/food/f3.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/food/f4.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/food/f5.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/food/f6.jpg"></div>
+        							            							        <div class="events-navslide photo-bg" data-src="images/food/f7.jpg"></div>
         							            							        						</div>
         						<div class="events-navslider-arrows">
         							<a href="#" class="events-navslider-arrow events-prev events-prev-2">
@@ -540,33 +813,16 @@ src="https://www.facebook.com/tr?id=1447466952324848&ev=PageView&noscript=1"
         			</div>
         			<div class="holiday-right scroll-parent">
         				<div class="scroll-wrapper">
-        					<h2 class="holiday__title">
-        						POOL PARTY В ДУБАЕ – ЯРКАЯ <br>
-ВЕЧЕРИНКА У БАССЕЙНА        					</h2>
-        					<div class="holiday-text">
-        						<p>Горячее солнце, лазурная вода и лёгкая музыка – этот день стал настоящим летним<br>
-праздником свободы и удовольствия. Для вечеринки мы арендовали закрытый Beach Club<br>
-отеля Nikki Beach и полностью трансформировали его под наше событие, продумав<br>
-каждую деталь.</p>
-<p>Пространство оформили в оттенках жёлтого и персикового, создав атмосферу<br>
-безмятежного отдыха. Вся площадка была брендирована под мероприятие: фирменные<br>
-полотенца, стильные стикеры, эксклюзивные аксессуары и даже палочки от мороженого с<br>
-уникальной гравировкой. Гости могли сделать временные татуировки, чтобы оставить<br>
-память об этом дне.</p>
-<p>Программа была насыщенной и динамичной: диджеи создавали безупречный саундтрек<br>
-дня, интерактивные активности проходили прямо в воде, а гости наслаждались<br>
-коктейлями, закусками и лёгкой атмосферой праздника.</p>
-<p>Главный акцент вечеринки – специальная будка откровений, где приглашённые гости могли<br>
-записывать юмористические интервью, делиться впечатлениями и создавать весёлые<br>
-моменты, которые позже стали частью вечера. Эти видео стали частью большого<br>
-кинопоказа, который развернулся после заката.</p>
-<p>Ближе к ночи вечеринка переместилась на пляж, где мы организовали стильный open-air<br>
-кинотеатр с мягкими диванами, подушками и уютным светом гирлянд. На экране гости<br>
-увидели видеохронику прошедшего дня, погружаясь в атмосферу незабываемых эмоций и<br>
-ярких моментов.</p>
-<p>Идеальное сочетание непринуждённого отдыха, стильного развлечения и потрясающей<br>
-организации оставили у каждого гостя приятное послевкусие.</p>
-        					</div>
+        					<h2 class="holiday__title" style=" margin-bottom: 50px; ">
+	LUXURY CATERING EXPERIENCE AT A GRAND CELEBRATION
+</h2>
+<div class="holiday-text">
+	<p>A perfect blend of sophistication, taste, and creativity — every element of the dining experience reflected elegance and the refined vision of the hosts. The event took place at an exclusive venue where every dish, presentation, and flavor was designed to meet the highest standards of gourmet excellence.</p>
+	<p>The gala dinner format highlighted the special atmosphere of the evening. The menu featured exquisite themed courses crafted especially for the occasion, live cooking stations, and personal chef performances that turned dining into an engaging show. Each serving was paired with fine wines and creative cocktails, curated to complement every flavor.</p>
+	<p>The culinary centerpiece of the night was an exclusive tasting segment led by a renowned chef, who introduced signature dishes combining traditional techniques with modern flair. Guests enjoyed a sensory journey through aroma, texture, and presentation, celebrating the art of fine dining.</p>
+	<p>From elegant canapés to decadent desserts, every detail contributed to the evening’s harmony — refined, warm, and full of delight. The thoughtful combination of décor, lighting, and culinary artistry transformed the dinner into an unforgettable gastronomic experience filled with emotion, joy, and celebration.</p>
+</div>
+
         				</div>
         				<a href="#" class="scroll-parent__btn mob-true">
         					Show More Text
@@ -575,173 +831,7 @@ src="https://www.facebook.com/tr?id=1447466952324848&ev=PageView&noscript=1"
         		</div>
         	</div>
         </div>
-                <div class="modal-window modal-callback modal-sliders">
-        	<div class="inner">
-        		<img src="images/modal-close.svg" alt="" class="modal-window__close">
-        		<div class="holiday-row row">
-        			<div class="events-rights">
-        				<div class="events-wrapper">
-        					<div class="events-slider events-slider-2">
-        						        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-1.jpg" data-fancybox="Circle of love" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-1.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-2.jpg" data-fancybox="Circle of love" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-2.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-3.jpg" data-fancybox="Circle of love" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-3.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-4.jpg" data-fancybox="Circle of love" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-4.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-5.jpg" data-fancybox="Circle of love" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-5.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-6.jpg" data-fancybox="Circle of love" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-6.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-7.jpg" data-fancybox="Circle of love" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-7.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-8.jpg" data-fancybox="Circle of love" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-8.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-9.jpg" data-fancybox="Circle of love" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-9.jpg"></a>
-        						            						        					</div>
-        					<div class="events-navslider-arrows mob-true">
-        						<a href="#" class="events-navslider-arrow events-prev events-prev-1">
-        							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 12" fill="none">
-        							  <path d="M14 6.46154L1.88842 6.46154L7.0791 11.3077L6.42655 12L-2.62268e-07 6L6.42655 6.72761e-07L7.0791 0.692308L1.88842 5.53846L14 5.53846L14 6.46154Z" fill="white"></path>
-        							</svg>
-        						</a>
-        						<a href="#" class="events-navslider-arrow events-next events-next-1">
-        							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 12" fill="none">
-        							  <path d="M-8.87629e-07 5.53846L12.1116 5.53846L6.9209 0.692308L7.57345 7.66359e-08L14 6L7.57345 12L6.9209 11.3077L12.1116 6.46154L-8.76621e-07 6.46154L-8.87629e-07 5.53846Z" fill="white"></path>
-        							</svg>
-        						</a>
-        					</div>
-        					<div class="events-navslider-wrapper">
-        						<div class="events-navslider events-navslider-2">
-        							        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-1.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-2.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-3.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-4.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-5.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-6.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-7.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-8.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/circle-of-love-uzhin-na-beregu-persidskogo-zaliva-royalevent-9.jpg"></div>
-        							            							        						</div>
-        						<div class="events-navslider-arrows">
-        							<a href="#" class="events-navslider-arrow events-prev events-prev-2">
-        								<img src="images/events-arrow.svg" alt="">
-        							</a>
-        							<a href="#" class="events-navslider-arrow events-next events-next-2">
-        								<img src="images/events-arrow.svg" alt="">
-        							</a>
-        						</div>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="holiday-right scroll-parent">
-        				<div class="scroll-wrapper">
-        					<h2 class="holiday__title">
-        						СТИЛЬНЫЙ ГАЛА-УЖИН НА БЕРЕГУ <br>
-ПЕРСИДСКОГО ЗАЛИВА        					</h2>
-        					<div class="holiday-text">
-        						<p>Гала-ужин под открытым небом объединил эстетику и современные технологии,<br>
-развернувшись в уникальной локации на берегу Персидского залива, где утончённая<br>
-атмосфера дополнялась впечатляющим техническим исполнением.</p>
-<p>В центре концепции – единый большой стол, объединяющий всех гостей в одно<br>
-пространство без разделений. Его центральным элементом стал уникальный светодиодный<br>
-экран, интегрированный в пол, который дополнял сценическое оформление и окружал<br>
-гостей погружением в динамический контент. Это создавало захватывающий визуальный<br>
-эффект, усиливающий атмосферу вечера.</p>
-<p>Гостей встречал оркестр, задавая тон элегантному началу. Программа вечера включала<br>
-постановочные номера, раскрывающие концепцию мероприятия, а также выступления<br>
-известных артистов, приглашённых хореографов и модного диджея, который поддерживал<br>
-стильную музыкальную линию ужина.</p>
-<p>Особое внимание уделили техническому обеспечению: экраны, размещённые в полу и по<br>
-бокам площадки, формировали единую картину, создавая 360-градусное визуальное шоу.<br>
-Для события были разработаны уникальные графические заставки и иллюстрации,<br>
-связывающие все элементы вечера воедино и передающие идею встречи невероятных<br>
-людей, чьи судьбы переплетаются в едином круге.</p>
-<p>Финальным аккордом ужина стало грандиозное пиротехническое шоу и подача<br>
-праздничного торта, завершившие этот выверенный до мельчайших деталей вечер. Всё —<br>
-от цветовых решений до технического воплощения — было продумано так, чтобы создать<br>
-гармоничную и неповторимую атмосферу.</p>
-        					</div>
-        				</div>
-        				<a href="#" class="scroll-parent__btn mob-true">
-        					Show More Text
-        				</a>
-        			</div>
-        		</div>
-        	</div>
-        </div>
-                <div class="modal-window modal-callback modal-sliders">
-        	<div class="inner">
-        		<img src="images/modal-close.svg" alt="" class="modal-window__close">
-        		<div class="holiday-row row">
-        			<div class="events-rights">
-        				<div class="events-wrapper">
-        					<div class="events-slider events-slider-2">
-        						        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/chapter-50-a-luxe-celebration-yubilej-v-pravitelstvennoj-rezidencii-royalevent-1.jpg" data-fancybox="Chapter 50: A Luxe Celebration" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/chapter-50-a-luxe-celebration-yubilej-v-pravitelstvennoj-rezidencii-royalevent-1.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/chapter-50-a-luxe-celebration-yubilej-v-pravitelstvennoj-rezidencii-royalevent-2.jpg" data-fancybox="Chapter 50: A Luxe Celebration" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/chapter-50-a-luxe-celebration-yubilej-v-pravitelstvennoj-rezidencii-royalevent-2.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/chapter-50-a-luxe-celebration-yubilej-v-pravitelstvennoj-rezidencii-royalevent-3.jpg" data-fancybox="Chapter 50: A Luxe Celebration" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/chapter-50-a-luxe-celebration-yubilej-v-pravitelstvennoj-rezidencii-royalevent-3.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/chapter-50-a-luxe-celebration-yubilej-v-pravitelstvennoj-rezidencii-royalevent-4.jpg" data-fancybox="Chapter 50: A Luxe Celebration" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/chapter-50-a-luxe-celebration-yubilej-v-pravitelstvennoj-rezidencii-royalevent-4.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/chapter-50-a-luxe-celebration-yubilej-v-pravitelstvennoj-rezidencii-royalevent-5.jpg" data-fancybox="Chapter 50: A Luxe Celebration" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/chapter-50-a-luxe-celebration-yubilej-v-pravitelstvennoj-rezidencii-royalevent-5.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/chapter-50-a-luxe-celebration-yubilej-v-pravitelstvennoj-rezidencii-royalevent-6.jpg" data-fancybox="Chapter 50: A Luxe Celebration" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/chapter-50-a-luxe-celebration-yubilej-v-pravitelstvennoj-rezidencii-royalevent-6.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/chapter-50-a-luxe-celebration-yubilej-v-pravitelstvennoj-rezidencii-royalevent-7.jpg" data-fancybox="Chapter 50: A Luxe Celebration" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/chapter-50-a-luxe-celebration-yubilej-v-pravitelstvennoj-rezidencii-royalevent-7.jpg"></a>
-        						            						        <a href="https://royalevent.ru/wp-content/uploads/2025/03/chapter-50-a-luxe-celebration-yubilej-v-pravitelstvennoj-rezidencii-royalevent-8.jpg" data-fancybox="Chapter 50: A Luxe Celebration" class="events-slide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/chapter-50-a-luxe-celebration-yubilej-v-pravitelstvennoj-rezidencii-royalevent-8.jpg"></a>
-        						            						        					</div>
-        					<div class="events-navslider-arrows mob-true">
-        						<a href="#" class="events-navslider-arrow events-prev events-prev-1">
-        							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 12" fill="none">
-        							  <path d="M14 6.46154L1.88842 6.46154L7.0791 11.3077L6.42655 12L-2.62268e-07 6L6.42655 6.72761e-07L7.0791 0.692308L1.88842 5.53846L14 5.53846L14 6.46154Z" fill="white"></path>
-        							</svg>
-        						</a>
-        						<a href="#" class="events-navslider-arrow events-next events-next-1">
-        							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 12" fill="none">
-        							  <path d="M-8.87629e-07 5.53846L12.1116 5.53846L6.9209 0.692308L7.57345 7.66359e-08L14 6L7.57345 12L6.9209 11.3077L12.1116 6.46154L-8.76621e-07 6.46154L-8.87629e-07 5.53846Z" fill="white"></path>
-        							</svg>
-        						</a>
-        					</div>
-        					<div class="events-navslider-wrapper">
-        						<div class="events-navslider events-navslider-2">
-        							        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/chapter-50-a-luxe-celebration-yubilej-v-pravitelstvennoj-rezidencii-royalevent-1.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/chapter-50-a-luxe-celebration-yubilej-v-pravitelstvennoj-rezidencii-royalevent-2.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/chapter-50-a-luxe-celebration-yubilej-v-pravitelstvennoj-rezidencii-royalevent-3.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/chapter-50-a-luxe-celebration-yubilej-v-pravitelstvennoj-rezidencii-royalevent-4.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/chapter-50-a-luxe-celebration-yubilej-v-pravitelstvennoj-rezidencii-royalevent-5.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/chapter-50-a-luxe-celebration-yubilej-v-pravitelstvennoj-rezidencii-royalevent-6.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/chapter-50-a-luxe-celebration-yubilej-v-pravitelstvennoj-rezidencii-royalevent-7.jpg"></div>
-        							            							        <div class="events-navslide photo-bg" data-src="https://royalevent.ru/wp-content/uploads/2025/03/chapter-50-a-luxe-celebration-yubilej-v-pravitelstvennoj-rezidencii-royalevent-8.jpg"></div>
-        							            							        						</div>
-        						<div class="events-navslider-arrows">
-        							<a href="#" class="events-navslider-arrow events-prev events-prev-2">
-        								<img src="images/events-arrow.svg" alt="">
-        							</a>
-        							<a href="#" class="events-navslider-arrow events-next events-next-2">
-        								<img src="images/events-arrow.svg" alt="">
-        							</a>
-        						</div>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="holiday-right scroll-parent">
-        				<div class="scroll-wrapper">
-        					<h2 class="holiday__title">
-        						МУЖСКОЙ ЮБИЛЕЙ В ПРАВИТЕЛЬСТВЕННОЙ <br>
-РЕЗИДЕНЦИИ САНКТ-ПЕТЕРБУРГА        					</h2>
-        					<div class="holiday-text">
-        						<p>Идеальное сочетание статуса, элегантности и безупречно продуманной концепции,<br>
-отражающее характер и индивидуальность именинника. Юбилей прошёл на территории<br>
-правительственной резиденции К2, где всё – от места проведения до программы – было<br>
-выстроено в соответствии с индивидуальными пожеланиями заказчика.</p>
-<p>Формат гала-ужина подчеркнул особую атмосферу события. В программе вечера были<br>
-захватывающие тематические номера, созданные специально под концепцию<br>
-мероприятия, выступления самых близких с персональными творческими поздравлениями,<br>
-а также яркие сюрпризы для именинника.</p>
-<p>Настоящим музыкальным акцентом стал хэдлайнер вечера – легендарная группа<br>
-«Иванушки International», чьи хиты подарили гостям ностальгию, драйв и атмосферу<br>
-беззаботного праздника.</p>
-<p>Харизматичный именинник, душевные гости, яркая атмосфера – всё сложилось в единый,<br>
-незабываемый вечер, наполненный теплотой, радостью и искренними эмоциями.</p>
-        					</div>
-        				</div>
-        				<a href="#" class="scroll-parent__btn mob-true">
-        					Show More Text
-        				</a>
-        			</div>
-        		</div>
-        	</div>
-        </div>
-                <div class="modal-window modal-callback modal-sliders">
+                <!-- <div class="modal-window modal-callback modal-sliders">
         	<div class="inner">
         		<img src="images/modal-close.svg" alt="" class="modal-window__close">
         		<div class="holiday-row row">
@@ -826,8 +916,8 @@ src="https://www.facebook.com/tr?id=1447466952324848&ev=PageView&noscript=1"
         			</div>
         		</div>
         	</div>
-        </div>
-                <div class="modal-window modal-callback modal-sliders">
+        </div> -->
+                <!-- <div class="modal-window modal-callback modal-sliders">
         	<div class="inner">
         		<img src="images/modal-close.svg" alt="" class="modal-window__close">
         		<div class="holiday-row row">
@@ -909,7 +999,7 @@ Royal Event создал событие, в котором всё работал
         		</div>
         	</div>
         </div>
-          
+           -->
 
 <div class="modal-window modal-callback modal-thanks">
 	<div class="inner">
@@ -1017,7 +1107,7 @@ Royal Event создал событие, в котором всё работал
 					<a href="#home" class="scroll-to">
 						Home
 					</a>
-				</li>
+			
 				<li>
 					<a href="#team" class="scroll-to">
 						About
@@ -1046,61 +1136,9 @@ Royal Event создал событие, в котором всё работал
 		</div>
 	</div>
 </div>
-<header class="first-top">
-	<div class="container row flex-c">
-		<div class="first-left flex-c">
-			<a  class="first-top__logo">
-				<img src="images/quincelogo.png" alt="" class="pc-true">
-				<img src="images/quincelogo.png" alt="" class="mob-true">
-			</a>
-		
-			<ul class="first-list pc-true">
-				<li>
-					<a href="#home" class="scroll-to">
-						Home
-					</a>
-				</li>
-				<li>
-					<a href="#team" class="scroll-to">
-						About
-					</a>
-				</li>
-				<li>
-					<a href="#service" class="scroll-to">
-						Services
-					</a>
-				</li>
-				<li>
-					<a href="#events" class="scroll-to">
-						Portfolio
-					</a>
-				</li>
-				<li>
-					<a href="#brief" class="scroll-to">
-						Contacts
-					</a>
-				</li>
-				
-			</ul>
-			<div class="mob-icons mob-true">
-				<a href="tel:+7 (925) 580 71 17" class="mob__phone mob-icon">
-					<img src="images/phone.svg" alt="">
-				</a>
-				<a href="#" class="mob__burger mob-icon open-menu">
-					<img src="images/burger.svg" alt="">
-				</a>
-			</div>
-		</div>
-		<div class="first-right flex-c pc-true">
-			<a href="tel:+96267 96027" class="first__phone">
-				+96267 96027
-			</a>
-			<a href="#" class="first__btn open-callback">
-				Get In Touch
-			</a>
-		</div>
-	</div>
-</header>
+<div id="navbar-container"></div>
+
+
 <div class="first-soc">
 	<a href="https://wa.me/792558071=" class="first-soc__item">
 		<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
@@ -1115,12 +1153,12 @@ Royal Event создал событие, в котором всё работал
 		</svg>
 	</a>
 </div>
-
-
-</style>
 <section class="first-screen" id="home">
     <div class="first-block photo-bg">
-      <video 
+        <video class="first-screen-video" id="first-video" controls="" playsinline="" preload="metadata" data-setup="{}" autoplay="" loop="" muted="" crossorigin="anonymous" role="presentation">
+           <source src="videos/1016.mp4" type="video/mp4">
+        </video>
+		 <video 
             class="first-screen-video bg-video" 
             playsinline 
             autoplay 
@@ -1130,7 +1168,7 @@ Royal Event создал событие, в котором всё работал
             crossorigin="anonymous" 
             role="presentation"
         >
-            <source src="videos/hero-video.mp4" type="video/mp4">
+            <source src="videos/1016.mp4" type="video/mp4">
         </video>
         <div class="first-content">
             <div class="container">
@@ -1197,7 +1235,7 @@ Royal Event создал событие, в котором всё работал
         a leading event management company in Madurai, where every detail <br>
         highlights your uniqueness and elegance
     </div>
-    <div class="team-right-photo photo-bg" style="background-image: url('images/team-bg.jpg');">
+    <div class="team-right-photo photo-bg" style="background-image: url('images/fun.jpg');">
         <a class="video-play">
             <img src="images/play.svg" alt="">
         </a>
@@ -1359,14 +1397,27 @@ Royal Event создал событие, в котором всё работал
 	<div class="events-left scroll-parent">
 		<h2 class="section-title pc-true"> Our Event Management Services </h2>
 		<div class="scroll-wrapper">
-			<h3 class="events__subtitle"> Corporate Event Management 🏢 </h3>
+			<h3 class="events__subtitle" style="margin-bottom: 50px"> Event Decoration & Styling 🎨 </h3>
+<div class="events-text">
+    <p>At Quince Sparrow Events, we transform every venue into a stunning space that reflects your vision. From corporate halls to wedding venues, we specialize in creating elegant and thematic setups that leave a lasting impression on guests.</p>
+    
+    <p>Our Services Include: Hall and stage décor, Thematic setups for corporate and private events, Floral arrangements and centerpieces, Lighting design and ambiance creation, Custom props and backdrops, On-site decoration coordination.</p>
+    
+    <p>Stage & Hall Styling 💐 Whether it’s a product launch, wedding, or private celebration, we design stages and halls that wow your audience. We focus on layout, aesthetics, color themes, floral décor, lighting, and personalized touches to match your event theme.</p>
+    
+    <p>Our Styling Packages Cover: Customized stage setups, Mandap and ceremonial décor, Floral arches and installations, Themed lighting and effects, Table and seating arrangements, Complete coordination for seamless execution.</p>
+    
+    <p>Special Event Touches ✨ For birthdays, anniversaries, or private parties, we provide creative décor solutions that make the celebration unforgettable. Services include balloon arrangements, themed décor, entrance styling, centerpieces, photo corners, and decorative lighting.</p>
+</div>
+
+			<!-- <h3 class="events__subtitle" style="margin-bottom: 50px"> Corporate Event Management 🏢 </h3>
 			<div class="events-text">
 				<p>At Quince Sparrow Events, we ensure every corporate event is executed flawlessly. Whether it’s a product launch, annual meeting, awards night, or team-building retreat, we manage planning, branding, venue coordination, and AV setup to make your company shine.</p>
 				<p>Services Include: Event theme & concept creation, Corporate branding & signage, AV setup and technical support, Guest management and RSVP, On-site coordination.</p>
 				<p>Wedding Planning Services 💍 From intimate traditional weddings to grand destination celebrations, we bring your love story to life. We handle décor, venue, catering, guest hospitality, entertainment, and all other aspects of your special day.</p>
 				<p>Our Wedding Packages Cover: Venue selection in Madurai & Tamil Nadu, Mandap and stage décor, Bride & groom entry concepts, Vendor management (photography, catering, etc.), Pre-wedding & post-wedding event planning.</p>
 				<p>Birthday & Private Parties 🎉 From a child’s birthday to milestone celebrations or surprise anniversaries, we create memorable experiences. Services include theme-based décor, games and entertainment, catering and custom cakes, photography and videography, return gifts, and more.</p>
-			</div>
+			</div> -->
 		</div> 
 		<a href="#" class="scroll-parent__btn mob-true"> Show More Text </a>
 	</div>
@@ -1375,46 +1426,75 @@ Royal Event создал событие, в котором всё работал
 
 				<div class="events-wrapper">
 					<div class="events-slider events-slider-1"> <a
-							href="images/dec1.jpg"
+							href="images/hall decoration/h1.jpeg"
 							data-fancybox="Royal Event  организация мероприятий под ключ 1"
-							class="events-slide photo-bg" style="background-image: url('images/dec1.jpg');"></a> <a
-							href="images/dec2.jpg"
+							class="events-slide photo-bg" style="background-image: url('images/hall decoration/h1.jpeg');"></a> <a
+							href="images/hall decoration/h2.jpeg"
 							data-fancybox="Royal Event  организация мероприятий под ключ 1"
-							class="events-slide photo-bg" style="background-image: url('images/dec2.jpg');"></a> <a
-							href="images/dec3.jpg"
+							class="events-slide photo-bg" style="background-image: url('images/hall decoration/h2.jpeg');"></a> <a
+							href="images/hall decoration/h3.jpeg"
 							data-fancybox="Royal Event  организация мероприятий под ключ 1"
-							class="events-slide photo-bg" style="background-image: url('images/dec3.jpg');"></a> <a
-							href="images/dec4.jpg"
+							class="events-slide photo-bg" style="background-image: url('images/hall decoration/h3.jpeg');"></a> <a
+							href="images/hall decoration/h4.jpeg"
 							data-fancybox="Royal Event  организация мероприятий под ключ 1"
-							class="events-slide photo-bg" style="background-image: url('images/dec4.jpg');"></a> <a
-							href="images/dec4.jpg"
-							data-fancybox="Royal Event  организация мероприятий под ключ 1"
-							class="events-slide photo-bg"
-							style="background-image: url('images/dec5.jpg');"></a> <a
-							href="images/dec5.jpg"
+							class="events-slide photo-bg" style="background-image: url('images/hall decoration/h4.jpeg');"></a> <a
+							href="images/hall decoration/h5.jpeg"
 							data-fancybox="Royal Event  организация мероприятий под ключ 1"
 							class="events-slide photo-bg"
-							style="background-image: url('images/dec6.jpg');"></a> <a
-							href="images/dec6.jpg"
+							style="background-image: url('images/hall decoration/h5.jpeg');"></a> <a
+							href="images/hall decoration/h6.jpeg"
 							data-fancybox="Royal Event  организация мероприятий под ключ 1"
 							class="events-slide photo-bg"
-							style="background-image: url('images/dec6.jpg');"></a> <a
-							href="https://royalevent.ru/wp-content/uploads/2025/03/02022024_shumovphoto_182.jpg"
+							style="background-image: url('images/hall decoration/h6.jpeg');"></a> <a
+							href="images/hall decoration/h7.jpeg"
 							data-fancybox="Royal Event  организация мероприятий под ключ 1"
 							class="events-slide photo-bg"
-							style="background-image: url('images/dec6.jpg');"></a> <a
-							href="https://royalevent.ru/wp-content/uploads/2025/03/02022024_shumovphoto_195.jpg"
+							style="background-image: url('images/hall decoration/h7.jpeg');"></a> <a
+							href="images/hall decoration/h8.jpeg"
 							data-fancybox="Royal Event  организация мероприятий под ключ 1"
 							class="events-slide photo-bg"
-							style="background-image: url('images/dec6.jpg');"></a> <a
-							href="https://royalevent.ru/wp-content/uploads/2025/03/02022024_shumovphoto_221.jpg"
+							style="background-image: url('images/hall decoration/h8.jpeg');"></a> <a
+							href="images/hall decoration/h9.jpeg"
 							data-fancybox="Royal Event  организация мероприятий под ключ 1"
 							class="events-slide photo-bg"
-							style="background-image: url('images/dec4.jpg');"></a> <a
-							href="https://royalevent.ru/wp-content/uploads/2025/03/02022024_shumovphoto_528-1-1.jpg"
+							style="background-image: url('images/hall decoration/h9.jpeg');"></a> <a
+							href="images/hall decoration/h10.jpeg"
 							data-fancybox="Royal Event  организация мероприятий под ключ 1"
 							class="events-slide photo-bg"
-							style="background-image: url('images/dec6.jpg');"></a> </div>
+							style="background-image: url('images/hall decoration/h10.jpeg');"></a> <a
+							href="images/hall decoration/h11.jpeg"
+							data-fancybox="Royal Event  организация мероприятий под ключ 1"
+							class="events-slide photo-bg"
+							style="background-image: url('images/hall decoration/h12.jpeg');"></a><a
+							href="images/hall decoration/h11.jpeg"
+							data-fancybox="Royal Event  организация мероприятий под ключ 1"
+							class="events-slide photo-bg"
+							style="background-image: url('images/hall decoration/h12.jpeg');"></a>
+						<a
+							href="images/hall decoration/h12.jpeg"
+							data-fancybox="Royal Event  организация мероприятий под ключ 1"
+							class="events-slide photo-bg"
+							style="background-image: url('images/hall decoration/h12.jpeg');"></a>
+						<a
+							href="images/hall decoration/h13.jpeg"
+							data-fancybox="Royal Event  организация мероприятий под ключ 1"
+							class="events-slide photo-bg"
+							style="background-image: url('images/hall decoration/h13.jpeg');"></a>
+						<a
+							href="images/hall decoration/h14.jpeg"
+							data-fancybox="Royal Event  организация мероприятий под ключ 1"
+							class="events-slide photo-bg"
+							style="background-image: url('images/hall decoration/h14.jpeg');"></a>
+						<a
+							href="images/hall decoration/h15.jpeg"
+							data-fancybox="Royal Event  организация мероприятий под ключ 1"
+							class="events-slide photo-bg"
+							style="background-image: url('images/hall decoration/h15.jpeg');"></a>
+						<a
+							href="images/hall decoration/h21.jpeg"
+							data-fancybox="Royal Event  организация мероприятий под ключ 1"
+							class="events-slide photo-bg"
+							style="background-image: url('images/hall decoration/h21.jpeg');"></a> </div>
 					<div class="events-navslider-arrows mob-true"> <a href="#"
 							class="events-navslider-arrow events-prev events-prev-1"> <svg
 								xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 12" fill="none">
@@ -1429,28 +1509,38 @@ Royal Event создал событие, в котором всё работал
 							</svg> </a> </div>
 					<div class="events-navslider-wrapper">
 						<div class="events-navslider events-navslider-1">
-							<div class="events-navslide photo-bg" style="background-image: url('images/1-3.jpg');">
+							<div class="events-navslide photo-bg" style="background-image: url('images/hall decoration/h1.jpeg');">
 							</div>
-							<div class="events-navslide photo-bg" style="background-image: url('images/2-3.jpg');">
+							<div class="events-navslide photo-bg" style="background-image: url('images/hall decoration/h2.jpeg');">
 							</div>
-							<div class="events-navslide photo-bg" style="background-image: url('images/3-3.jpg');">
+							<div class="events-navslide photo-bg" style="background-image: url('images/hall decoration/h3.jpeg');">
 							</div>
-							<div class="events-navslide photo-bg" style="background-image: url('images/4-3.jpg');">
+							<div class="events-navslide photo-bg" style="background-image: url('images/hall decoration/h4.jpeg');">
 							</div>
 							<div class="events-navslide photo-bg"
-								style="background-image: url('images/dec1.jpg');"></div>
+								style="background-image: url('images/hall decoration/h5.jpeg');"></div>
 							<div class="events-navslide photo-bg"
-								style="background-image: url('images/dec2.jpg');"></div>
+								style="background-image: url('images/hall decoration/h6.jpeg');"></div>
 							<div class="events-navslide photo-bg"
-								style="background-image: url('images/dec3.jpg');"></div>
+								style="background-image: url('images/hall decoration/h7.jpeg');"></div>
 							<div class="events-navslide photo-bg"
-								style="background-image: url('images/dec4.jpg');"></div>
+								style="background-image: url('images/hall decoration/h8.jpeg');"></div>
 							<div class="events-navslide photo-bg"
-								style="background-image: url('images/dec5.jpg');"></div>
+								style="background-image: url('images/hall decoration/h9.jpeg');"></div>
 							<div class="events-navslide photo-bg"
-								style="background-image: url('images/dec6.jpg');"></div>
+								style="background-image: url('images/hall decoration/h10.jpeg');"></div>
 							<div class="events-navslide photo-bg"
-								style="background-image: url('images/dec1.jpg');"></div>
+								style="background-image: url('images/hall decoration/h11.jpeg');"></div>
+								<div class="events-navslide photo-bg"
+								style="background-image: url('images/hall decoration/h12.jpeg');"></div>
+								<div class="events-navslide photo-bg"
+								style="background-image: url('images/hall decoration/h13.jpeg');"></div>
+								<div class="events-navslide photo-bg"
+								style="background-image: url('images/hall decoration/h14.jpeg');"></div>
+								<div class="events-navslide photo-bg"
+								style="background-image: url('images/hall decoration/h15.jpeg');"></div>
+								<div class="events-navslide photo-bg"
+								style="background-image: url('images/hall decoration/h21.jpeg');"></div>
 						</div>
 						<div class="events-navslider-arrows pc-true"> <a href="#"
 								class="events-navslider-arrow events-prev events-prev-1"> <img
@@ -1470,13 +1560,20 @@ Royal Event создал событие, в котором всё работал
 			<div class="events-rights">
 				<div class="events-wrapper">
 					<div class="events-slider events-slider-2">
-	<a href="https://royalevent.ru/wp-content/uploads/2025/03/1460_1187_1.webp" data-fancybox="Royal Event  организация мероприятий под ключ 2" class="events-slide photo-bg" style="background-image: url('images/1460_1187_1.webp');"></a>
-	<a href="images/dec3.jpg" data-fancybox="Royal Event  организация мероприятий под ключ 2" class="events-slide photo-bg" style="background-image: url('images/dec1.jpg');"></a>
-	<a href="https://royalevent.ru/wp-content/uploads/2025/03/1771_784A7350_1.webp" data-fancybox="Royal Event  организация мероприятий под ключ 2" class="events-slide photo-bg" style="background-image: url('images/1771_784A7350_1.webp');"></a>
-	<a href="https://royalevent.ru/wp-content/uploads/2025/03/WhatsApp-Image-2019-01-10-at-18.56.32.webp" data-fancybox="Royal Event  организация мероприятий под ключ 2" class="events-slide photo-bg" style="background-image: url('images/WhatsApp-Image-2019-01-10-at-18.56.32.webp');"></a>
-	<a href="https://royalevent.ru/wp-content/uploads/2025/03/1944_1540_1.webp" data-fancybox="Royal Event  организация мероприятий под ключ 2" class="events-slide photo-bg" style="background-image: url('images/1944_1540_1.webp');"></a>
-	<a href="https://royalevent.ru/wp-content/uploads/2025/03/1166_3768_FM1_9108_2_1.webp" data-fancybox="Royal Event  организация мероприятий под ключ 2" class="events-slide photo-bg" style="background-image: url('images/1166_3768_FM1_9108_2_1.webp');"></a>
-						    											</div>
+	<a href="images/makeup/m1.jpeg" data-fancybox="Royal Event  организация мероприятий под ключ 2" class="events-slide photo-bg" style="background-image: url('images/makeup/m1.jpeg');"></a>
+	<a href="images/makeup/m2.jpeg" data-fancybox="Royal Event  организация мероприятий под ключ 2" class="events-slide photo-bg" style="background-image: url('images/makeup/m2.jpeg');"></a>
+	<a href="images/makeup/m4.jpeg" data-fancybox="Royal Event  организация мероприятий под ключ 2" class="events-slide photo-bg" style="background-image: url('images/makeup/m4.jpeg');"></a>
+	<a href="images/makeup/m5.jpeg" data-fancybox="Royal Event  организация мероприятий под ключ 2" class="events-slide photo-bg" style="background-image: url('images/makeup/m5.jpeg');"></a>
+	<a href="images/makeup/m6.jpeg" data-fancybox="Royal Event  организация мероприятий под ключ 2" class="events-slide photo-bg" style="background-image: url('images/makeup/m6.jpeg');"></a>
+	<a href="images/makeup/m6.jpeg" data-fancybox="Royal Event  организация мероприятий под ключ 2" class="events-slide photo-bg" style="background-image: url('images/makeup/m6.jpeg');"></a>
+		<a href="images/makeup/m7.jpeg" data-fancybox="Royal Event  организация мероприятий под ключ 2" class="events-slide photo-bg" style="background-image: url('images/makeup/m7.jpeg');"></a>
+		<a href="images/makeup/m8.jpeg" data-fancybox="Royal Event  организация мероприятий под ключ 2" class="events-slide photo-bg" style="background-image: url('images/makeup/m8.jpeg');"></a>
+		<a href="images/makeup/m10.jpeg" data-fancybox="Royal Event  организация мероприятий под ключ 2" class="events-slide photo-bg" style="background-image: url('images/makeup/m10.jpeg');"></a>
+	  	<a href="images/makeup/m11.jpeg" data-fancybox="Royal Event  организация мероприятий под ключ 2" class="events-slide photo-bg" style="background-image: url('images/makeup/m11.jpeg');"></a>
+  		<a href="images/makeup/m12.jpeg" data-fancybox="Royal Event  организация мероприятий под ключ 2" class="events-slide photo-bg" style="background-image: url('images/makeup/m12.jpeg');"></a>
+			<a href="images/makeup/m13.jpeg" data-fancybox="Royal Event  организация мероприятий под ключ 2" class="events-slide photo-bg" style="background-image: url('images/makeup/m13.jpeg');"></a>
+
+										</div>
 					<div class="events-navslider-arrows mob-true">
 						<a href="#" class="events-navslider-arrow events-prev events-prev-1">
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 12" fill="none">
@@ -1491,12 +1588,17 @@ Royal Event создал событие, в котором всё работал
 					</div>
 					<div class="events-navslider-wrapper">
 						<div class="events-navslider events-navslider-2">
-														    							        <div class="events-navslide photo-bg" style="background-image: url('images/1460_1187_1.webp');"></div>
-							    							        <div class="events-navslide photo-bg" style="background-image: url('images/1770_7911_FM1_2546_3_1.webp');"></div>
-							    							        <div class="events-navslide photo-bg" style="background-image: url('images/1771_784A7350_1.webp');"></div>
-							    							        <div class="events-navslide photo-bg" style="background-image: url('images/WhatsApp-Image-2019-01-10-at-18.56.32.webp');"></div>
-							    							        <div class="events-navslide photo-bg" style="background-image: url('images/1944_1540_1.webp');"></div>
-							    							        <div class="events-navslide photo-bg" style="background-image: url('images/1166_3768_FM1_9108_2_1.webp');"></div>
+														    							        <div class="events-navslide photo-bg" style="background-image: url('images/makeup/m1.jpeg');"></div>
+							    							        <div class="events-navslide photo-bg" style="background-image: url('images/makeup/m2.jpeg');"></div>
+							    							        <div class="events-navslide photo-bg" style="background-image: url('images/makeup/m4.jpeg');"></div>
+							    							        <div class="events-navslide photo-bg" style="background-image: url('images/makeup/m5.jpeg');"></div>
+							    							        <div class="events-navslide photo-bg" style="background-image: url('images/makeup/m6.jpeg');"></div>
+																	<div class="events-navslide photo-bg" style="background-image: url('images/makeup/m7.jpeg');"></div>
+																	<div class="events-navslide photo-bg" style="background-image: url('images/makeup/m8.jpeg');"></div>
+																	<div class="events-navslide photo-bg" style="background-image: url('images/makeup/m10.jpeg');"></div>
+																	<div class="events-navslide photo-bg" style="background-image: url('images/makeup/m11.jpeg');"></div>
+																	<div class="events-navslide photo-bg" style="background-image: url('images/makeup/m12.jpeg');"></div>
+																	<div class="events-navslide photo-bg" style="background-image: url('images/makeup/m13.jpeg');"></div>
 							    													</div>
 						<div class="events-navslider-arrows">
 							<a href="#" class="events-navslider-arrow events-prev events-prev-2">
@@ -1511,7 +1613,37 @@ Royal Event создал событие, в котором всё работал
 			</div>
 		<div class="holiday-right scroll-parent">
     <div class="scroll-wrapper">
-        <h2 class="holiday__title">
+		<h2 class="holiday__title" style="margin-bottom: 50px">
+    BRIDAL & GROOM STYLING <br>
+    PROFESSIONAL MAKEUP SERVICES
+</h2>
+<div class="holiday-text">
+    <p>Our team provided a full-service makeup and styling experience for the bride, groom, and guests.<br>
+    From classic elegance to modern glam, each look was carefully crafted to complement individual features,<br>
+    ensuring everyone felt confident, radiant, and perfectly styled for the occasion.</p>
+    
+    <p>The bridal suite was transformed into a luxurious styling space, where our makeup artists and hairstylists<br>
+    worked seamlessly to prepare the couple and their family. Guests also received personalized styling,<br>
+    creating a harmonious and elegant aesthetic throughout the event.</p>
+    
+    <p>The team focused on every detail — from flawless foundation and bridal eye makeup to hair arrangements<br>
+    and accessories. Groom styling included professional grooming, hair, and makeup for photographs and live appearances.<br>
+    Each look was enhanced to maintain elegance throughout the entire event.</p>
+    
+    <p>For guests, our team offered tailored services to suit their preferences and the event theme,<br>
+    ensuring everyone felt confident and camera-ready. Coordinated color palettes, subtle enhancements,<br>
+    and styling choices contributed to a visually stunning atmosphere for photography and videography.</p>
+    
+    <p>The styling process included touch-ups throughout the day, allowing the bride, groom, and guests<br>
+    to enjoy the celebrations without worry. Our professional approach ensured a stress-free and luxurious experience,<br>
+    highlighting beauty in every detail.</p>
+    
+    <p>Through our work, we created lasting impressions in photographs and memories alike,<br>
+    capturing the elegance, personality, and style of each individual. Every service was tailored to enhance<br>
+    the unique beauty of the day, leaving a lasting impression on all attendees.</p>
+</div>
+
+        <!-- <h2 class="holiday__title" style="margin-bottom: 50px">
             GRAND PRIVATE EVENT <br>
             CRISTAL OCEAN
         </h2>
@@ -1540,7 +1672,7 @@ Royal Event создал событие, в котором всё работал
             
             <p>While we cannot reveal every detail of this project, even a glimpse through photos and<br>
             videos conveys the scale, elegance, and refinement of an event that was truly unforgettable.</p>
-        </div>
+        </div> -->
     </div>
     <a href="#" class="scroll-parent__btn mob-true">
         Show More Text
@@ -1555,10 +1687,10 @@ Royal Event создал событие, в котором всё работал
 		<div class="variety-row row">
 			
 							
-			    			        <div class="variety-block photo-bg" style="background-image: url('images/meksikanskaya-vecherinka-la-fiesta-ot-royal-wedding-5.jpg');" data-aos="fade-up">
+			    			        <div class="variety-block photo-bg" style="background-image: url('images/wed1.jpg');" data-aos="fade-up">
 			        	<div class="variety-bottom">
 			        		<h3 class="variety__title">
-			        			La Fiesta			        		</h3>
+			        			Weddings		        		</h3>
 			        		<div class="variety-link">
 			        			<a href="#">
 			        				More
@@ -1566,10 +1698,10 @@ Royal Event создал событие, в котором всё работал
 			        		</div>
 			        	</div>
 			        </div>
-			        			        <div class="variety-block photo-bg" style="background-image: url('images/dreamland-immersivnyj-den-rozhdeniya-dlya-domeniki-ot-royal-wedding-oblojka.jpg');" data-aos="fade-up">
+			        			        <div class="variety-block photo-bg" style="background-image: url('images/corporate2.jpg');" data-aos="fade-up">
 			        	<div class="variety-bottom">
 			        		<h3 class="variety__title">
-			        			Dreamland			        		</h3>
+			        			Corporate Events		        		</h3>
 			        		<div class="variety-link">
 			        			<a href="#">
 			        				More
@@ -1577,10 +1709,10 @@ Royal Event создал событие, в котором всё работал
 			        		</div>
 			        	</div>
 			        </div>
-			        			        <div class="variety-block photo-bg" style="background-image: url('images/milestone-celebration-yubilej-v-dubae-royalevent-8.jpg');" data-aos="fade-up">
+			        			        <div class="variety-block photo-bg" style="background-image: url('images/photography/8.jpg');" data-aos="fade-up">
 			        	<div class="variety-bottom">
 			        		<h3 class="variety__title">
-			        			Milestone celebration			        		</h3>
+			        			Photography			        		</h3>
 			        		<div class="variety-link">
 			        			<a href="#">
 			        				More
@@ -1588,10 +1720,10 @@ Royal Event создал событие, в котором всё работал
 			        		</div>
 			        	</div>
 			        </div>
-			        			        <div class="variety-block photo-bg" style="background-image: url('images/oblojka.jpg');" data-aos="fade-up">
+			        			        <div class="variety-block photo-bg" style="background-image: url('images/bd/bd1.jpeg');" data-aos="fade-up">
 			        	<div class="variety-bottom">
 			        		<h3 class="variety__title">
-			        			The Vibrant Pool Escape			        		</h3>
+			        			Birthday Events			        		</h3>
 			        		<div class="variety-link">
 			        			<a href="#">
 			        				More
@@ -1599,10 +1731,10 @@ Royal Event создал событие, в котором всё работал
 			        		</div>
 			        	</div>
 			        </div>
-			        			        <div class="variety-block photo-bg" style="background-image: url('images/oblojka-circle-of-love-royalevent.jpg');" data-aos="fade-up">
+			        			        <div class="variety-block photo-bg" style="background-image: url('images/costume/cd0.jpg');" data-aos="fade-up">
 			        	<div class="variety-bottom">
 			        		<h3 class="variety__title">
-			        			Circle of love			        		</h3>
+			        			Costume Design			        		</h3>
 			        		<div class="variety-link">
 			        			<a href="#">
 			        				More
@@ -1610,10 +1742,10 @@ Royal Event создал событие, в котором всё работал
 			        		</div>
 			        	</div>
 			        </div>
-			        			        <div class="variety-block photo-bg" style="background-image: url('images/oblojka-1.jpg');" data-aos="fade-up">
+			        			        <div class="variety-block photo-bg" style="background-image: url('images/food/f9.jpg');" data-aos="fade-up">
 			        	<div class="variety-bottom">
 			        		<h3 class="variety__title">
-			        			Chapter 50: A Luxe Celebration			        		</h3>
+			        			Catering And Foods		        		</h3>
 			        		<div class="variety-link">
 			        			<a href="#">
 			        				More
@@ -1621,7 +1753,7 @@ Royal Event создал событие, в котором всё работал
 			        		</div>
 			        	</div>
 			        </div>
-			        			        <div class="variety-block photo-bg" style="background-image: url('images/miss-milana-royalevent-1.jpg');" data-aos="fade-up">
+			        			        <!-- <div class="variety-block photo-bg" style="background-image: url('images/miss-milana-royalevent-1.jpg');" data-aos="fade-up">
 			        	<div class="variety-bottom">
 			        		<h3 class="variety__title">
 			        			Miss Milana			        		</h3>
@@ -1631,8 +1763,8 @@ Royal Event создал событие, в котором всё работал
 			        			</a>
 			        		</div>
 			        	</div>
-			        </div>
-			        			        <div class="variety-block photo-bg" style="background-image: url('images/docke-anniversary-celebration-1.jpg');" data-aos="fade-up">
+			        </div> -->
+			        			        <!-- <div class="variety-block photo-bg" style="background-image: url('images/docke-anniversary-celebration-1.jpg');" data-aos="fade-up">
 			        	<div class="variety-bottom">
 			        		<h3 class="variety__title">
 			        			DÖCKE anniversary			        		</h3>
@@ -1642,14 +1774,14 @@ Royal Event создал событие, в котором всё работал
 			        			</a>
 			        		</div>
 			        	</div>
-			        </div>
+			        </div> -->
 			        
 			  					</div>
 	</div>
 </section>
 <section class="compliment">
 	<div class="container">
-    <div class="compliment-block photo-bg" style="background-image: url('images/compliment-bg.jpg');" data-aos="fade-in">
+    <div class="compliment-block photo-bg" style="background-image: url('images/compliment-bg.jpeg');" data-aos="fade-in">
         <h4 class="compliment__pretitle">
             The Most Common Compliment <br class="mob-true">We Receive <br class="pc-true">
         </h4>
@@ -1815,7 +1947,7 @@ Royal Event создал событие, в котором всё работал
 <section class="brief">
     <div class="container">
         <div class="brief-row row">
-            <div class="brief-photo photo-bg" style="background-image: url('images/brief-bg.jpg');" data-aos="fade-right"></div>
+            <div class="brief-photo photo-bg" style="background-image: url('images/dec4.jpg');" data-aos="fade-right"></div>
             <div class="brief-content" data-aos="fade-left">
                 <h2 class="section-title">
                     Tell Us About <br>
@@ -1865,97 +1997,7 @@ Royal Event создал событие, в котором всё работал
     </div>
 </section>
 
-<footer class="footer" id="brief">
-    <div class="container">
-        <div class="footer-top">
-            <a href="/" class="footer-logo">
-                <img src="images/quincelogo.png" alt="Quince Sparrow Events">
-            </a>
-        </div>
-        <div class="footer-center row">
-            <div class="footer-left flex-c">
-                <div class="footer-left__title">
-                    Follow Us <br>
-                    on Social Media
-                
-                <!-- <a href="https://www.facebook.com/quincesparrowevents" target="_blank">
-                    <img src="images/facebook-icon.svg" alt="Facebook">
-                </a> -->
-               <div style="display: flex; align-items: center; gap: 10px; margin-top: 8px;">
-      <a href="https://www.instagram.com" target="_blank">
-        <img src="images/instagram.png" alt="Instagram" style="width: 28px; height: 28px; align-items: center;">
-      </a>
-	  <a href="https://www.facebook.com" target="_blank">
-        <img src="images/communication.png" alt="Facebook" style="width: 28px; height: 28px; align-items: center;">
-      </a>
-	   <a href="https://www.whatsapp.com" target="_blank">
-        <img src="images/whatsapp (1).png" alt="Whatsapp" style="width: 28px; height: 28px; align-items: center;">
-      </a>
-                <!-- <a href="https://wa.me/9626796027" target="_blank">
-                    <img src="images/whatsapp-icon.svg" alt="WhatsApp">
-                </a> -->
-              </div></div>
-            </div>
-            <div class="footer-map flex-c">
-                <div class="footer-map-circle photo-bg" style="background-image: url('images/adress.jpg');"></div>
-               
-<div class="footer-map__text" 
-     style="color:#ddd; font-size:15px; line-height:1.7; margin-left:12px; max-width:400px; font-family:'Inter',sans-serif;">
-  <span style="font-weight:600; color:#fff; border-left:4px solid #c29b00; padding-left:6px;">Address:</span><br>
-  <span style="font-weight:700; color:#e0bf3d;">2/385</span>, 
-  Kaaba Manzil, Bamba Nagar, Iyerbungalow, Madurai, Tamil Nadu
-</div>
-    </div>
-<div class="footer-right" 
-     style="display:flex; flex-direction:column; align-items:flex-start; color:#ddd; font-family:'Poppins',sans-serif; border-left:3px solid #b59101; padding-left:10px;">
-  <a href="tel:+9626796027" 
-     style="font-size:20px; font-weight:600; color:#af8c00; text-decoration:none; margin-bottom:5px;">
-     +9626796027
-  </a>
-  <div style="font-size:15px; line-height:1.6;">
-    <span style="color:#fff;">Email:</span> 
-    <a href="mailto:quincesparrowevents@gmail.com" style="color:#ffcb05; text-decoration:none;">quincesparrowevents@gmail.com</a><br>
-    <span style="color:#bbb;">Business Hours:</span> All days, 10 AM – 7 PM
-  </div>
-</div>
-
-
-        </div>
-        <div class="footer-bottom">
-            <table align="center" width="100%" cellpadding="8" cellspacing="0" style="font-size: 13px; color: #aaa; text-align: center;">
-                <tbody>
-                    <tr valign="top">
-                        <td>
-                            <a href="#" style="color:#aaa; text-decoration:none;">Privacy Policy</a><br>
-                            <a href="#" style="color:#aaa; text-decoration:none;">Data Consent</a><br>
-                            <a href="#" style="color:#aaa; text-decoration:none;">Newsletter Consent</a>
-                        </td>
-                        <td>
-                            <a href="#" style="color:#aaa; text-decoration:none;">Cookie Policy</a><br>
-                            <a href="#" style="color:#aaa; text-decoration:none;">Terms of Service</a>
-                        </td>
-                        <td>
-                            <a href="#" style="color:#aaa; text-decoration:none;">Personal Data Policy</a><br>
-                            <a href="#" style="color:#aaa; text-decoration:none;">Public Offer</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="3" style="
-                            text-align:center;
-                            font-size:12px;
-                            line-height:1.4;
-                            color:#666;
-                            padding:20px 0 10px;">
-                            Quince Sparrow Events – Event Management Company.<br>
-                            © 2007 − 2025 All Rights Reserved.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-</footer>
-
+<div id="footer-container"></div>
 
 <!-- libs js -->
 <script type="speculationrules">
@@ -1996,8 +2038,6 @@ var wpcf7 = {
 
 <link href="css/video-js.css" rel="stylesheet"> 
 <script src="js/video.min.js"></script>
-
+<script src="js/main.js"></script>
 <script src="js/common.js"></script>
-
-
 </body></html>
