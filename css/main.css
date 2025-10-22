@@ -568,7 +568,8 @@ input[type=submit]{
   padding-right: 32px; }
 
 .first-block {
-  background-color: grey; }
+  background-color: rgb(4, 0, 21); }
+
 
 .first-top__logo {
   display: -webkit-box;
