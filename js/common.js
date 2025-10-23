@@ -110,9 +110,9 @@ $(document).ready(function () {
     let input_2 = inputs[1];
     let input_3 = $('.brief-label textarea');
 
-    $(input_1).attr("placeholder", "Ваше имя");
-    $(input_2).attr("placeholder", "Ваш телефон");
-    $(input_3).attr("placeholder", "Комментарий");
+    $(input_1).attr("placeholder", "Your Name");
+    $(input_2).attr("placeholder", "Your Phone");
+    $(input_3).attr("placeholder", "Comment");
 
     $('.team-items').slick({
       infinite: true,
